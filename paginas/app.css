@@ -1,0 +1,17 @@
+.contents{
+  margin: 5%;
+}
+
+.card{
+  margin: 1%;
+  width: 18rem;
+}
+
+.card:hover{
+  background-color: #F9F7F7;
+  font-weight: 600;
+}
+
+.card-title{
+  font-weight: 700;
+}
