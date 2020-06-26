@@ -4,7 +4,11 @@
 
 .card{
   margin: 1%;
-  width: 18rem;
+  width: 15rem;
+}
+
+.card a img{
+  height: 15rem;
 }
 
 .card:hover{
@@ -15,3 +19,24 @@
 .card-title{
   font-weight: 700;
 }
+
+#menuAgrupadores{
+  margin: 0 auto;
+  justify-content: center;
+}
+
+
+#menuAgrupadores a{
+  background-color: #cbdfebd5;
+  line-height: 50px;
+  vertical-align: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#menuAgrupadores a:hover{
+  background-color: #F9F7F7;
+  font-weight: 600;
+}
+
