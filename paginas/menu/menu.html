@@ -10,7 +10,9 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <a href="#" class="navbar-brand">ENS</a>
+            <a href="#" class="navbar-brand">
+                <img src="/imagens/logo.png" id="logo">
+            </a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -18,13 +20,14 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                     <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produtos</a>
+                        <a class="nav-link dropdown-toggle " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produtos</a>
                         <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">Xiaomi</a>
-                          <a class="dropdown-item" href="#">Sansung</a>
-                          <div class="dropdown-divider">
-                          </div>
-                          <a class="dropdown-item" href="#">Acessórios</a>
+                            <a class="dropdown-item" href="/paginas/produtos.html">Todos</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/paginas/agrupadores/agrupador-xiaomi.html">Xiaomi</a>
+                            <a class="dropdown-item" href="/paginas/agrupadores/agrupador-samsung.html">Samsung</a>
+                            <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="/paginas/agrupadores/agrupador-acessorios.html">Acessórios</a>
                         </div>
                     </li>
                     <li class="nav-item"><a href="#" class="nav-link">Promoções</a></li>

@@ -3,16 +3,16 @@
 		<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="app.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>Loja celulares</title>
 	</head>
 	<body>
-    <!-- <object height="10%" width="100%" type="text/html" data="menu/menu.html"></object> -->
-    
-    <object height="10%" width="100%" type="text/html" data="menu/menuAgrupadores.html"></object>
+    <div id="menu"></div>
+    <div id="menuAgrupadores"></div>
 
     <div class="row" style="justify-content: center;">
       <div class="card">
@@ -137,5 +137,9 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript">
+      $("#menu").load("menu/menu.html");
+      $("#menuAgrupadores").load("menu/menuAgrupadores.html");
+    </script>
   </body>
 </html>
