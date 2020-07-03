@@ -22,12 +22,12 @@
 
 #menuAgrupadores{
   margin: 0 auto;
+  margin-top: 2%;
   justify-content: center;
 }
 
-
 #menuAgrupadores a{
-  background-color: #cbdfebd5;
+  background-color: #E6E7E8;
   line-height: 50px;
   vertical-align: 50px;
   text-align: center;
@@ -40,3 +40,7 @@
   font-weight: 600;
 }
 
+#logo{
+  width: 7rem;
+  height: 3rem;
+}
