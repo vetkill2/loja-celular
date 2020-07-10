@@ -1,0 +1,12 @@
+.bg-blue {
+    background-color: #6495ed;
+}
+
+body { padding-top: 70px; }
+
+.products .card-img-top {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
