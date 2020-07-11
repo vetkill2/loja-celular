@@ -21,9 +21,10 @@ Para executar o projeto, basta seguir os passos abaixo:
 
   Após executar este comando com sucesso, serão exibidas algumas informações no terminal, como na imagem abaixo:
 
+  ![image](./imagens/execute-project.png)
 
 #### 3. Abrir a aplicação
-  Basta acessar o localhost na porta indicada ao executar o comando anterior (http://127.0.0.1:8081 ou http://localhost:8081) e será possível visualizar a aplicação.
+  Basta acessar o localhost na porta indicada ao executar o comando anterior (http://127.0.0.1:8081 ou http://localhost:8080) e será possível visualizar a aplicação.
   
   No exemplo acima, a porta 8080 já estava em uso, portanto, o server foi executado na porta 8081. Porém, certamente quando executar o comando, a porta onde o server será executado será a 8080.
 
